@@ -19,3 +19,7 @@ create table cliente (
 	datacadastro date not null default CURRENT_DATE
 )
 ```
+
+### Para testes de cada método crud
+
+No arquivo principal JDBCliente.java estão todos os métodos CRUD comentados. Para utilizá-los basta tirar o método escolhido dos comentários e rodar o arquivo.
