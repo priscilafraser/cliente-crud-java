@@ -1,7 +1,8 @@
 # cliente-crud-java
 
-Para criação da tabela no banco de dados:
+### Para criação da tabela no banco de dados, utilizada no código:
 
+```
 create table cliente (
 	id serial primary key,
 	nome varchar(100),
@@ -17,3 +18,4 @@ create table cliente (
 	senha varchar(255) NOT NULL,
 	datacadastro date not null default CURRENT_DATE
 )
+```
