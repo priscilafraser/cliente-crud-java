@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="cadastro.css"/>
+</head>
+<body>
+	<div class="container #4a148c purple darken-4">
+		<div class="row">
+			<div class="col s12">
+				<a th:href="@{/}">Home</a>
+			</div>
+			<div class="col s12">
+				<h1>Cadastrar Cliente</h1>
+			</div>
+			<div class="col s12">
+				<form th:action="@{/cadastro}" method="post">
+					<label for="idnome">Nome</label>
+					<input id="idnome" type="text" placeholder="Informe nome" name="nome"/>
+					
+					<label for="idfone">Telefone</label>
+					<input id="idfone" type="text" placeholder="Informe fone" name="telefone"/>
+					
+					<label for="idemail">Email</label>
+					<input id="idemail" type="text" placeholder="Informe email" name="email"/>
+					
+					<label for="idcep">CEP</label>
+					<input id="idcep" type="text" placeholder="Informe cep" name="cep"/>
+					
+					<label for="idlogradouro">Logradouro</label>
+					<input id="idlogradouro" type="text" placeholder="Informe logradouro" name="logradouro"/>
+					
+					<label for="idnumero">Numero</label>
+					<input id="idnumero" type="text" placeholder="Informe numero" name="numero"/>
+					
+					<label for="idcomplemento">Complemento</label>
+					<input id="idcomplemento" type="text" placeholder="Informe complemento" name="complemento"/>
+					
+					<label for="idbairro">Bairro</label>
+					<input id="idbairro" type="text" placeholder="Informe bairro" name="bairro"/>
+					
+					<label for="idestado">Estado</label>
+					<input id="idestado" type="text" placeholder="Informe estado" name="estado"/>
+					
+					<label for="idperfil">Perfil</label>
+					<input id="idperfil" type="text" placeholder="Informe perfil" name="perfil"/>
+					
+					<label for="idsenha">Senha</label>
+					<input id="idsenha" type="text" placeholder="Informe senha" name="senha"/>
+					
+					<button class="waves-effect waves-light btn-small">Salvar</button>				
+				</form>
+			</div>
+			
+			
+		</div>
+		
+	
+	</div>
+	
+</body>
+</html>

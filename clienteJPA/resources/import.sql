@@ -1,0 +1,4 @@
+insert into cliente(nome, telefone, email, cep, logradouro, numero, complemento, bairro, estado, perfil, senha) valueS('Pedro','1234', 'pedro@gmail.com','6464754', 'Flores', 78, '', 'Flores', 'AM', 'Fornecedor','12345');
+insert into cliente(nome, telefone, email, cep, logradouro, numero, complemento, bairro, estado, perfil, senha) valueS('José','5678', 'jose@gmail.com','6464754', 'Flores', 78, '', 'Flores', 'AM', 'Fornecedor','12345');
+insert into cliente(nome, telefone, email, cep, logradouro, numero, complemento, bairro, estado, perfil, senha) valueS('Maria','9101', 'maria@gmail.com','6464754', 'Flores', 78, '', 'Flores', 'AM', 'Fornecedor','12345');
+insert into cliente(nome, telefone, email, cep, logradouro, numero, complemento, bairro, estado, perfil, senha) valueS('Antonio','1635', 'antonio@gmail.com','6464754', 'Flores', 78, '', 'Flores', 'AM', 'Fornecedor','12345');
