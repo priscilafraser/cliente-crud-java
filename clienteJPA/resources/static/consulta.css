@@ -6,6 +6,11 @@ a {
 	color: white;
 }
 
-table {
+th, td {
 	color:white;
+	text-align: center;
+}
+
+button {
+	margin-top: 20px;
 }

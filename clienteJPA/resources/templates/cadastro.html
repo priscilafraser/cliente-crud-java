@@ -4,13 +4,13 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="cadastro.css"/>
+	<link rel="stylesheet" type="text/css" href="index.css"/>
 </head>
 <body>
 	<div class="container #4a148c purple darken-4">
 		<div class="row">
 			<div class="col s12">
-				<a th:href="@{/}">Home</a>
+				<a th:href="@{/}" class="red">Voltar pra Home</a>
 			</div>
 			<div class="col s12">
 				<h1>Cadastrar Cliente</h1>
@@ -50,14 +50,11 @@
 					<label for="idsenha">Senha</label>
 					<input id="idsenha" type="text" placeholder="Informe senha" name="senha"/>
 					
-					<button class="waves-effect waves-light btn-small">Salvar</button>				
+					<button class="waves-effect waves-light btn-small">Salvar</button>
+					<button class="waves-effect waves-light btn-small"><a th:href="@{/consulta}" >Consultar</a></button>				
 				</form>
-			</div>
-			
-			
+			</div>	
 		</div>
-		
-	
 	</div>
 	
 </body>
